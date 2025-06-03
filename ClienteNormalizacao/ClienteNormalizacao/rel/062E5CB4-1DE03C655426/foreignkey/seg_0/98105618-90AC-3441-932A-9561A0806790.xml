@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="98105618-90AC-3441-932A-9561A0806790" containerWithKeyObject="DAEC1084-D00B-0370-F3CB-EFC6E9F3C60C" localFKIndex="D593A22B-469F-AFDB-04E1-673C150BAEE4" name="EnderecoCliente_Clientes_FK">
+<createdBy>joao.kobayashi</createdBy>
+<createdTime>2025-05-13 00:44:06 UTC</createdTime>
+<generatorID>40C6343C-3792-0DFD-CE7C-2523EA15EDC4</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<referredTableLongName>Clientes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>80D5CA7D-7DFA-C1BD-235D-C2A2D85B06AE</referredTableID>
+<keyObject>035C9905-B863-929B-1F73-1B74BBC70393</keyObject>
+<referredKeyID>035C9905-B863-929B-1F73-1B74BBC70393</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

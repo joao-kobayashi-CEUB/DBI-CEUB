@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="63690C6C-DADE-0FF8-CF3D-12EE2C56AC02" name="Titular">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 17:55:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="0AC2BA93-C4B9-2E48-2B97-426B5975CA86">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 17:56:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlrMensalidade" id="2310B3BB-B46F-E33A-6B83-534924EAD42F">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:02:00 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa" id="0E663EF6-C5D5-8117-3F4D-1A19CE813FBB">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 19:19:05 UTC</createdTime>
+<generatorID>1DA4973A-70C1-3BB4-8A03-537E9BB2616D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<referedAttribute>236D17B2-1BF4-3F9C-ED60-5AD95889B538</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6C21FD58-9320-A2E4-E231-E43523B48A73" name="Titular PK">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 17:57:23 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0AC2BA93-C4B9-2E48-2B97-426B5975CA86</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

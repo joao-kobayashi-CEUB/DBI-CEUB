@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99D93194-9F2F-6B7D-E632-48CBEABB5D44" name="TelefonePessoa">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:10:18 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfPessoa" id="77C34AD9-5017-1411-1933-DF625D928745">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:29:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dddTelefone" id="91049059-F341-E305-E222-D05BE2126CFF">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:10:57 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nroTelefone" id="36B284AB-BD82-3ACB-1DB4-2A83B65CD7B8">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:12:30 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa1" id="2DAEA416-547D-4EB6-B808-F8BDA1E57F24">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 19:01:27 UTC</createdTime>
+<generatorID>B16FDF09-4C42-F37F-44CA-6FA6F9FDFDFA</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<referedAttribute>236D17B2-1BF4-3F9C-ED60-5AD95889B538</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A81A5263-E9BC-5890-6C0B-CC1455699ACE" name="TelefonePessoa PK">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:29:47 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>77C34AD9-5017-1411-1933-DF625D928745</attributeRef>
+<attributeRef>91049059-F341-E305-E222-D05BE2126CFF</attributeRef>
+<attributeRef>36B284AB-BD82-3ACB-1DB4-2A83B65CD7B8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4697AA7C-3944-D36E-6501-4B1E2BFDEDF6" name="EnderecoPessoa">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:33:25 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfPessoa" id="4E110165-DCB7-4248-5605-C2059D97CEA6">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:34:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouroEndereco" id="A9C2946D-C8FF-9853-55EF-3B212D2B78EE">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:35:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nroEndereco" id="A994FBD9-321A-9482-92CC-EA6B82A7AC0E">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:36:00 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complementoEndereco" id="72ECF3AC-FA17-57B0-3F65-13DF8CC4843E">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:37:06 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BairroEndereco" id="A95194F6-395A-A840-415F-B541351F84FC">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:38:08 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeEnderco" id="DC4113C0-2EBF-F200-71A1-9A21286569C1">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:39:04 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufEndereco" id="B06D4DEC-12E0-9E44-AE81-F593EB12FD8E">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:39:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEndereco" id="237E9ACE-A7FC-B8A0-0D72-2AB614823354">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:40:38 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa1" id="E99336FF-1F1E-28FE-F824-21CCAC4AEF82">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 19:00:18 UTC</createdTime>
+<generatorID>EA92CBF3-2546-DE0F-FCC4-2231D46C8705</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<referedAttribute>236D17B2-1BF4-3F9C-ED60-5AD95889B538</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="siglaUf" id="0C753C28-7A3F-2F77-493C-A5706FC62827">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 19:19:35 UTC</createdTime>
+<generatorID>F437F866-F07A-B9A6-41E6-6ECF049B1CC8</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<referedAttribute>EB4AD709-54F9-D6DF-73FD-D0C16680B780</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6308574E-11B1-4A32-19E3-6487E0631B99" name="EnderecoPessoa PK">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:41:24 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4E110165-DCB7-4248-5605-C2059D97CEA6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

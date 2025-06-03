@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E40161FA-C3A7-5A0A-3695-FB80129D6272" name="UfEndereco">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:33:44 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="siglaUf" id="EB4AD709-54F9-D6DF-73FD-D0C16680B780">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:41:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeUf" id="4393D06A-A452-5AAC-44F4-77B5683CBFD1">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:42:12 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18 CHAR</dataTypeSize>
+<ownDataTypeParameters>18 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA56DDB1-45FD-9884-423C-CC525863BA6A" name="UfEndereco PK">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:42:06 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB4AD709-54F9-D6DF-73FD-D0C16680B780</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4658ACF2-473D-9172-85C1-5A333549DA5D" name="Parentesco">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:21:52 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="grauParentesco" id="F3B80668-BFF2-B2BB-50D4-52F4FDED16D2">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:24:55 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tituloParentesco" id="5D19006C-79E7-C810-949D-35E92D8906E0">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:25:47 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="E802F838-609C-1FCB-8343-2C39B7A340B1">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:59:33 UTC</createdTime>
+<generatorID>306D9FEE-5938-5FAD-6746-2B2381E7FFE7</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<referedAttribute>F93B05B3-9917-6207-1B08-C0EA265CA2BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="21B367AB-74D1-D0CE-B925-F559E098295E">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:59:33 UTC</createdTime>
+<generatorID>306D9FEE-5938-5FAD-6746-2B2381E7FFE7</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<referedAttribute>8336B9D8-8783-C1E0-46DF-09382D6912E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7FCCDBCC-0468-D3C3-916B-A4D957F764D7" name="Parentesco PK">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:25:12 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F3B80668-BFF2-B2BB-50D4-52F4FDED16D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

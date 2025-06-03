@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="343A32ED-E527-183D-AAA5-1ECE28BD3667" name="MensalidadeTitular">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-22 22:36:59 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="E79B4BCD-24CF-951D-8597-775156B20F08">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-22 22:39:08 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="referenciaParcela" id="B2ECC9D5-7621-C56D-D07F-75DA0D0247F5">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-22 22:48:59 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlrParcelaMensalidade" id="CCEFD15D-C56A-6720-5DAD-2646429B292C">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-22 22:40:10 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataVencimento" id="E2BE12B1-DFFD-519B-4561-81B4C0989E78">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-22 22:50:34 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataPgto" id="753F5070-94C8-AF00-E568-5414BC113E2D">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-22 22:51:27 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="84AF037F-C178-4222-F8BC-43756504FF3A">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-22 22:56:10 UTC</createdTime>
+<generatorID>0DDC28EE-5A4F-E004-99CB-FFD1E7E03FDA</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<referedAttribute>0AC2BA93-C4B9-2E48-2B97-426B5975CA86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7582CF56-0274-8CD4-B465-3515E811DC50" name="MensalidadeTitular PK">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-22 22:39:35 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E79B4BCD-24CF-951D-8597-775156B20F08</attributeRef>
+<attributeRef>B2ECC9D5-7621-C56D-D07F-75DA0D0247F5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED2F66C8-9E7D-48BB-5D37-1376BF08DC83" name="Pessoa">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 17:53:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfPessoa" id="236D17B2-1BF4-3F9C-ED60-5AD95889B538">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 17:59:02 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomePessoa" id="1573586B-7816-8C68-BF74-A397CCFA4B99">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 17:59:46 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimentoPessoa" id="667689BC-F396-0D10-31DB-1D7615B9EE6D">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:00:26 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="EB12DF37-2465-42B9-CF85-F98000F594E4">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:54:03 UTC</createdTime>
+<generatorID>E8EA83DE-2811-CA18-4D48-C638530FD0D0</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<referedAttribute>F93B05B3-9917-6207-1B08-C0EA265CA2BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="5DF528FC-789D-8817-A2E7-30443A57B319">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:54:03 UTC</createdTime>
+<generatorID>E8EA83DE-2811-CA18-4D48-C638530FD0D0</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<referedAttribute>8336B9D8-8783-C1E0-46DF-09382D6912E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa1" id="5C12A62A-E9D3-DAAE-932C-F8E2A8C37F65">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 19:10:13 UTC</createdTime>
+<generatorID>EA92CBF3-2546-DE0F-FCC4-2231D46C8705</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<referedAttribute>4E110165-DCB7-4248-5605-C2059D97CEA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="C7444E51-32BB-8774-E6E1-A36C8C86EEB3">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 19:19:05 UTC</createdTime>
+<generatorID>1DA4973A-70C1-3BB4-8A03-537E9BB2616D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<referedAttribute>0AC2BA93-C4B9-2E48-2B97-426B5975CA86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A0DDA8E2-A2C9-C63C-D2D5-DAB0E95AAFAD" name="Pessoa PK">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 17:59:19 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>236D17B2-1BF4-3F9C-ED60-5AD95889B538</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

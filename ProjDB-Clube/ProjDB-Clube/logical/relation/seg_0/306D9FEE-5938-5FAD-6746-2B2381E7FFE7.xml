@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DependenteParentesco" directorySegmentName="seg_0" id="306D9FEE-5938-5FAD-6746-2B2381E7FFE7">
+<createdBy>denys</createdBy>
+<createdTime>2025-05-22 18:59:33 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0118F415-E2EC-5F46-6CA4-8256FD27D393" value="true"/>
+</engineerTo>
+<sourcePk>505977DF-6C08-7B6B-AA44-FD9CEDB4FEB4</sourcePk>
+<targetPk>7FCCDBCC-0468-D3C3-916B-A4D957F764D7</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4BC0F866-B99C-4829-EE09-8CA46822E920</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4658ACF2-473D-9172-85C1-5A333549DA5D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
